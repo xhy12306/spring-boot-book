@@ -4,14 +4,14 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.shuijing.boot.task.entity.User">
-    <result column="id" property="id" />
-    <result column="creator" property="creator" />
-    <result column="modifier" property="modifier" />
-    <result column="create_time" property="createTime" />
-    <result column="update_time" property="updateTime" />
-        <result column="name" property="name" />
-        <result column="email" property="email" />
-        <result column="birth_day" property="birthDay" />
+        <result column="id" property="id"/>
+        <result column="creator" property="creator"/>
+        <result column="modifier" property="modifier"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="name" property="name"/>
+        <result column="email" property="email"/>
+        <result column="birth_day" property="birthDay"/>
     </resultMap>
 
     <!-- 通用查询结果列 -->
