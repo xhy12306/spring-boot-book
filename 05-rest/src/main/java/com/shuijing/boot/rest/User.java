@@ -3,13 +3,10 @@ package com.shuijing.boot.rest;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Past;
+import javax.validation.constraints.*;
 import java.time.LocalDate;
 
 /**
@@ -19,6 +16,7 @@ import java.time.LocalDate;
  */
 @Data
 @ApiModel("用户信息")
+@AllArgsConstructor
 public class User {
 
     @ApiModelProperty("用户ID")

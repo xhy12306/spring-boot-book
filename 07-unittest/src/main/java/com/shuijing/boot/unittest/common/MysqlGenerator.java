@@ -39,7 +39,7 @@ public class MysqlGenerator {
     public static final String XML_PATH = "/06-mbp/src/main/resources/mapper/";
     public static final String XML_POSTFIX = "Mapper";
 
-    public static final String AUTHOR = "刘水镜";
+    public static final String AUTHOR = "xhy";
     public static final String PARENT_PACKAGE = "com.shuijing.boot.mbp";
     public static final String[] SUPER_ENTITY_COLUMNS = {"id", "create_time", "update_time", "creator", "modifier"};
 

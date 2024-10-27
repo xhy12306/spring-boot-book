@@ -27,8 +27,8 @@ class UserServiceImplTest {
     @Test
     @DisplayName("Test Service getById")
     void getById() {
-        Mockito.when(userMapper.selectById(1)).thenReturn(new User().setName("刘水镜").setEmail("liushuijing@mail.com"));
+        Mockito.when(userMapper.selectById(1)).thenReturn(new User().setName("xhy").setEmail("liuxhy@mail.com"));
         User user = userService.getById(1);
-        Assertions.assertEquals("刘水镜", user.getName());
+        Assertions.assertEquals("xhy", user.getName());
     }
 }

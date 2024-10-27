@@ -27,7 +27,7 @@ public class UserServiceImplTests {
     @Test
     public void queryWrapper() {
         LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
-////        wrapper.eq("name", "刘水镜");
+////        wrapper.eq("name", "xhy");
 //        wrapper.ge(User::getBirthDay, LocalDate.parse("2011-01-01"));
 //        wrapper.between(User::getBirthDay, LocalDate.parse("2011-01-01"), LocalDate.parse("2011-12-31"));
 //
@@ -43,7 +43,7 @@ public class UserServiceImplTests {
         service.list(wrapper);
 
         LambdaUpdateWrapper<User> updateWrapper = new LambdaUpdateWrapper<>();
-        updateWrapper.set(User::getBirthDay, LocalDate.parse("2012-01-01")).eq(User::getName, "刘水镜");
+        updateWrapper.set(User::getBirthDay, LocalDate.parse("2012-01-01")).eq(User::getName, "xhy");
 //        service.update(updateWrapper);
     }
 }

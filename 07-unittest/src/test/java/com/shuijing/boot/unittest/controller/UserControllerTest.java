@@ -42,13 +42,13 @@ class UserControllerTest {
     @Test
     @DisplayName("Test Controller get")
     void get() throws Exception {
-        Mockito.when(userService.getById(1)).thenReturn(new User().setName("刘水镜").setEmail("liushuijing@mail.com"));
-        BDDMockito.given(userService.getById(1)).willReturn(new User().setName("刘水镜").setEmail("liushuijing@mail.com"));
+        Mockito.when(userService.getById(1)).thenReturn(new User().setName("xhy").setEmail("liuxhy@mail.com"));
+        BDDMockito.given(userService.getById(1)).willReturn(new User().setName("xhy").setEmail("liuxhy@mail.com"));
         mockMvc.perform(MockMvcRequestBuilders.get("/user/{id}", 1)
                 .accept("application/json;charset=UTF-8")
                 .contentType("application/json;charset=UTF-8"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.jsonPath("$.name").value("刘水镜"))
+                .andExpect(MockMvcResultMatchers.jsonPath("$.name").value("xhy"))
                 .andDo(MockMvcResultHandlers.print())
                 .andReturn();
         log.info("Test Controller get");
