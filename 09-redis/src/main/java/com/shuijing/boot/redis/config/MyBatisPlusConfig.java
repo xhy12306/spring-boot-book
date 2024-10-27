@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author 刘水镜
- * @blog https://liushuijinger.blog.csdn.net
+ * @author xhy
+ * @blog https://mp.csdn.net/mp_blog/manage/article
  * @date 2021-04-21
  */
 @Configuration

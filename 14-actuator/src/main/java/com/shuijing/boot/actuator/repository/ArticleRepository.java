@@ -6,8 +6,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**
- * @author 刘水镜
- * @blog https://liushuijinger.blog.csdn.net
+ * @author xhy
+ * @blog https://mp.csdn.net/mp_blog/manage/article
  * @date 2021-12-12
  */
 public interface ArticleRepository extends ElasticsearchRepository<Article, Long> {

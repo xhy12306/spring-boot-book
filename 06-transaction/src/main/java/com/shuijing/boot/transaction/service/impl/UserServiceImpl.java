@@ -15,8 +15,8 @@ import org.springframework.transaction.annotation.Transactional;
  * 用户表 服务实现类
  * </p>
  *
- * @author 刘水镜
- * @blog https://liushuijinger.blog.csdn.net
+ * @author xhy
+ * @blog https://mp.csdn.net/mp_blog/manage/article
  * @since 2021-04-22
  */
 @Service

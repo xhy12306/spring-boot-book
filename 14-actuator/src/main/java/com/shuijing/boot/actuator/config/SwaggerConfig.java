@@ -15,8 +15,8 @@ import springfox.documentation.spring.web.plugins.Docket;
 /**
  * Swagger 配置类
  *
- * @author 刘水镜
- * @blog https://liushuijinger.blog.csdn.net
+ * @author xhy
+ * @blog https://mp.csdn.net/mp_blog/manage/article
  * @date 2021-5-30
  */
 @EnableOpenApi
@@ -38,7 +38,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("Spring Boot 实战")
                 .description("Spring Boot 实战的 RESTFul 接口文档说明")
-                .contact(new Contact("刘水镜", "https://liushuijinger.blog.csdn.net", "liushuijinger@163.com"))
+                .contact(new Contact("刘水镜", "https://mp.csdn.net/mp_blog/manage/article", "liushuijinger@163.com"))
                 .version("1.0")
                 .build();
     }

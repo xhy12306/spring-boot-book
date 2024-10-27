@@ -22,8 +22,8 @@ import java.util.Map;
 import java.util.Scanner;
 
 /**
- * @author 刘水镜
- * @blog https://liushuijinger.blog.csdn.net
+ * @author xhy
+ * @blog https://mp.csdn.net/mp_blog/manage/article
  * @since 2021-04-21
  */
 public class MysqlGenerator {

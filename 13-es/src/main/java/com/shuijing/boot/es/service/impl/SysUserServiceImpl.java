@@ -16,8 +16,8 @@ import org.springframework.stereotype.Service;
  * 系统用户表 服务实现类
  * </p>
  *
- * @author 刘水镜
- * @blog https://liushuijinger.blog.csdn.net
+ * @author xhy
+ * @blog https://mp.csdn.net/mp_blog/manage/article
  * @since 2021-08-15
  */
 @Slf4j

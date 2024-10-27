@@ -5,8 +5,8 @@ import lombok.Getter;
 /**
  * 消息枚举类
  *
- * @author 刘水镜
- * @blog https://liushuijinger.blog.csdn.net
+ * @author xhy
+ * @blog https://mp.csdn.net/mp_blog/manage/article
  * @date 2021-5-30
  */
 @Getter

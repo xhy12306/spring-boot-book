@@ -3,8 +3,8 @@ package com.shuijing.boot.security.common;
 import lombok.Data;
 
 /**
- * @author 刘水镜
- * @blog https://liushuijinger.blog.csdn.net
+ * @author xhy
+ * @blog https://mp.csdn.net/mp_blog/manage/article
  * @date 2021-05-30
  */
 @Data

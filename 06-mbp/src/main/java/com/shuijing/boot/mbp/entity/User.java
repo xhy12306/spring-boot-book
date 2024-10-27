@@ -15,8 +15,8 @@ import lombok.experimental.Accessors;
  * 用户表
  * </p>
  *
- * @author 刘水镜
- * @blog https://liushuijinger.blog.csdn.net
+ * @author xhy
+ * @blog https://mp.csdn.net/mp_blog/manage/article
  * @since 2021-03-22
  */
 @Data
